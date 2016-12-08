@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/setting"
+        android:title="设置"
+        android:checkable="true"
+        android:checked="true"
+        android:icon="@mipmap/ic_launcher"></item>
+    <item android:id="@+id/collection"
+        android:title="收藏"
+        android:checkable="true"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"></item>
+    <item android:id="@+id/track"
+        android:title="足迹"
+        android:checkable="true"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"></item>
+    <item android:id="@+id/exits"
+        android:title="退出"
+        android:checkable="true"
+        android:checked="true"
+        android:icon="@mipmap/ic_launcher"></item>
+</menu>
